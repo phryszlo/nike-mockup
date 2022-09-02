@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+body {
+  height: 450vh;
+  background-color: #ffff;
+}
+a {
+  text-decoration: none;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background: #ffff;
+}
+.nikeIcon {
+  height: 100%;
+}
+.menuIcons {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-right: 5em;
+  margin-left: 60%;
+}
+.bagIcon {
+  height: 24px;
+  width: 24px;
+  padding: 15px;
+}
+.bagIcon:hover {
+  border: 0.2px solid #0000;
+  border-radius: 50%;
+  background-color: #8989;
+}
+.magIcon {
+  height: 24px;
+  width: 24px;
+  padding: 15px;
+}
+.magIcon:hover {
+  border: 0.2px solid #0000;
+  border-radius: 50%;
+  background-color: #8989;
+}
+
+.announce-section {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 4em;
+}
+
+.topScroll {
+  text-align: center;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 16px;;
+}
+.joiner {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.joiner a {
+  display: block;
+}
+
+.mainPic {
+  width: 95%;
+  margin: 10px;
+}
+
+.back2basics {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+  font-size: 1.6em;
+}
+
+.back2basics h1 {
+  font-family: "Anton", Helvetica, Arial, sans-serif;
+  font-size: 2.3em;
+  font-weight: bolder;
+}
+
+.blackButton {
+  height: 3em;
+  font-size: 16px;
+  background: #111;
+  color: #fff;
+  font-weight: lighter;
+  border-radius: 30px;
+  padding: 0 18px 0 18px;
+  font-family: "Anton", Helvetica, Arial, sans-serif;
+}
+
+.blackButton:hover {
+  filter: opacity(60%);
+}
+
+.blackButton:active {
+  filter: blur(2px) opacity(60%);
+}
+
+.featured-container {
+  position: relative;
+  text-align: center;
+  width: 90%;
+}
+.featured-h {
+  font-size: 2em;
+  text-align: left;
+}
+.featured-subheading {
+  position: absolute;
+  bottom: 50px;
+  left: 20%;
+  color: #ffff;
+  font-size: 20px;
+  text-align: left;
+}
+.featured-a {
+  text-decoration: none;
+}
+.featured-img {
+  /* width: 90%; */
+}
+.btn-white {
+  position: absolute;
+  bottom: 30px;
+  left: 20%;
+
+  height: 2em;
+  font-size: 16px;
+  background: #111;
+  color: #fff;
+  font-weight: lighter;
+  border-radius: 30px;
+  padding: 0 18px 0 18px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.btn-white:hover {
+  filter: opacity(60%);
+}
+
+.btn-white:active {
+  transform: scale(105%);
+  filter: saturate(10%);
+}
+
+/* PRODUCT PAGE */
+.theme-container {
+  display: flex;
+  justify-content: space-around;
+}
+.theme-tab {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sneaker-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px;
+  height: 54vh;
+  margin: 6px;
+}
+.sneaker-box {
+
+  border: .2px solid blue;
+  width: 250px;
+  height: 360px;
+  margin: 12px;
+}
+.sneaker-box:hover {
+  border: solid green;
+  margin: 12px;
+}
+
+.sneaker-info {
+  border: solid lemonchiffon;
+  height: 100px;
+  background-color: #333c3f;
+  color: lemonchiffon;
+  text-align: center;
+}
+.shoe {
+  width: 100%;
+}
+
